@@ -2,4 +2,132 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: Raleway;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+.container{
+    width: 1380px;
+    margin: auto;
+}
+.container2{
+    width: 1380px;
+    margin: auto;
+}
+.container3{
+    width: 1380px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.logo{
+    margin-top: 50px;
+}
+.active{
+    color: #FF8A00;
+}
+.navcart{
+    margin-left: 40px;
+    display: inline-block;
+}
+.BTNLOGIN{
+    background-color: green;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.main-header-title{
+    background-color: #FF8A00;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 200px 0px 0px 0px;
+}
+.main-title2{
+    color: #311F09;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    width: 288px;
+    margin-top: 70px;
+}
+.main-title3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #5C4529;
+    width: 532px;
+}
+.order{
+    background-color: #FF8A00;
+    padding: 20px 50px;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 40px;
+}
+.reser{
+    background-color: #3FA72F;
+    padding: 20px 50px;
+    border-radius: 40px;
+    color: #fff;
+    margin-left: 30px;
+}
+.main-boxs{
+    display: flex;
+}
+.back-img{
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.main-background{
+    background: #3FC66E;
+    height: 968px;
+}
+.main-boxs-box{
+    display: flex;
+    padding-top: 150px;
+}
+.main-pizza-header-title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    margin-top: 100px;
+}
+.deliz{
+    color: #FF8A00;
+}
+.main-pizza-title{
+    color: #5C4529;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 40px 0px;
+}
+.main-pizza-Se{
+    background-color: #FF8A00;
+    padding: 24px 50px;
+    color: #fff;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.main-chef-title{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 160px;
+    color: #311F09;
+    width: 593px;
+    margin-inline: auto;
 }
