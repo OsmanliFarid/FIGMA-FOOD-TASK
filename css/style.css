@@ -22,12 +22,17 @@ section{
     max-width: 80vw;
     margin: auto;
 }
+.container2{
+    max-width: 80vw;
+    margin: auto;
+}
 .links img{
     width: 25px;
     height: 25px;
 }
 .links a{
     color: black;
+    font-weight: 400;
 }
 .links{
     display: flex;
@@ -36,10 +41,10 @@ section{
 }
 .LoginBTN{
     background-color: green;
-    color: #fff;
     padding: 10px 30px;
     border-radius: 20px;
     margin-top: -10px;
+    color: #fff !important;
 }
 .navbar{
     display: flex;
@@ -95,9 +100,11 @@ section{
     display: flex;
 }
 .header-back-pizza-img{
-    margin-left: -10px;
+    margin-left: -50px;
     margin-top: -50px;
     display: inline-block;
+    max-width: 600px;
+    max-height: 600px;
 }
 .main-desc-boxs{
     display: flex;
@@ -105,7 +112,7 @@ section{
 }
 .main-back{
     background-color: #3FC66E;
-    max-height: 768px;
+
 }
 .pizza-2{
     margin-left: -120px;
@@ -183,7 +190,30 @@ section{
     .bars{
         display: none;
     }
-    
+    .container2{
+        max-width: 80vw;
+       }
+    .main-cart-boxs{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    }
+    .main-cart-title{
+    font-size: 40px;
+    max-width: 300px;
+    line-height: 80px;
+    margin: auto;
+    }
+    .main-cart-title{
+        color: #311F09;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 160px;
+    text-align: center;
+    padding: 50px 0px;
+    max-width: 593px;
+    margin: auto;
+    font-family: Tinos;
+    }
 }
 @media (max-width:1200px) {
     .bars{
@@ -255,6 +285,34 @@ section{
         border-radius: 30px;
         margin-top: 30px;
     }
+    .main-cart-boxs{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+       }
+       .main-cart-title{
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 80px;
+        margin: auto;
+       }
+       .container2{
+        max-width: 95vw;
+       }
+}
+@media (max-width:1108px) {
+    .main-cart-boxs{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+       }
+       .main-cart-title{
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 80px;
+        margin: auto;
+       }
+       .container2{
+        max-width: 95vw;
+       }
 }
 @media (max-width:992px) {
     .container{
@@ -336,6 +394,15 @@ section{
         border-radius: 20px;
         margin-top: 30px;
     }
+    .main-cart-boxs{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .main-cart-title{
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 80px;
+        margin: auto;
+       }
 }
 @media (max-width:922px) {
     .container{
@@ -376,6 +443,15 @@ section{
        .bars img{
         display: block; /* 922px-dən kiçik ekranlarda görünür */
     }
+    .main-cart-boxs{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .main-cart-title{
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 80px;
+        margin: auto;
+       }
 }
 @media (max-width:768px) {
     .container{
@@ -405,7 +481,8 @@ section{
     }
     .header-title{
         
-        text-align: center;
+        text-align: left;
+        margin-left: 100px;
         font-size: 8px;
     }
     .links{
@@ -426,6 +503,15 @@ section{
         max-height: 50px;
         margin-right: 10px;
         display: block;
+       }
+       .main-cart-boxs{
+        grid-template-columns: 1fr;
+       }
+       .main-cart-title{
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 80px;
+        margin: auto;
        }
 }
 @media (max-width:576px) {
@@ -453,14 +539,27 @@ section{
     }
     .header-title{
         text-align: left;
+        margin-left: 0px;
     }
     .header-back-pizza-img{
         max-width: 400px;
         max-height: 400px;
+        margin-inline: auto;
+        margin-top: 30px;
     }
    .bars img{
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
    }
+   .main-cart-boxs{
+    grid-template-columns: 1fr;
+   }
+   .main-cart-title{
+    font-size: 40px;
+    max-width: 300px;
+    line-height: 80px;
+    margin: auto;
+   }
+   
 }
