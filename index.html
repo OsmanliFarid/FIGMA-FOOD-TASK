@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -50,7 +51,7 @@
                         <a href="#" class="ReserBtn">Reservation</a>
                     </div>
                 </div>
-                <div class="header-back-pizza">
+                <div data-aos="zoom-in" data-aos-duration="3000"  class="header-back-pizza">
                     <img src="./images/Illustration.png" alt="" class="header-back-pizza-img">
                 </div>
             </div>
@@ -61,7 +62,7 @@
         <section>
             <div class="main-back">
                 <div class="container">
-                    <div class="main-desc-boxs">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="main-desc-boxs"> 
                         <div class="main-desc-back-piz">
                             <img src="./images/Mask Group.png" alt="" class="pizza-2">
                         
@@ -78,6 +79,20 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="main-menu-title">
+                    Our popular menu
+                </h1>
+                <div class="main-links">
+                    <ul>
+                        <li><a href="#" class="active">All catagory</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Dessert</a></li>
+                        <li><a href="#">Drink</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="container2">
@@ -118,5 +133,9 @@
                 </div>
         </section>
        </main>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+        AOS.init();
+      </script>
 </body>
 </html>
