@@ -810,5 +810,61 @@ section{
     color: #fff;
     border-radius: 162px;
 }
-
-
+.main-reserve-boxs{
+    display: flex;
+    background-color: #FFF4E7;
+    margin-top: 100px;
+}
+.main-reserve-title-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reserve-img{
+    padding-top: 50px;
+}
+.reserve-text{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    max-width: 453px;
+    color: #311F09;
+}
+.reserve-text-smal{
+    color: #FF8A00 !important;
+}
+.reserve-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    max-width: 433.11px;
+    padding: 40px 0px 100px 0px;
+    color: #5C4529;
+}
+.Reservation-btn{
+    display: inline-block;
+    background-color: #FF8A00;
+    width: 200px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 40px;
+}
+.main-reserve-img-box{
+    position: relative;
+}
+.main-reserve-title-box{
+    margin-left: 50px;
+}
+.reserve-img2{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+.reserve-img3{
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+}
