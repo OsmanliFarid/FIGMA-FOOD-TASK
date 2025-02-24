@@ -599,3 +599,216 @@ section{
     padding: 15px 48px;
     border-radius: 30px;
 }
+.main-populyar-menu-boxs{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+.menu-name-title{
+    margin-top: 30px;
+}
+.menu-name-title2{
+    margin-top: -50px;
+}
+.main-populyar-menu-box{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img{
+    padding: 40px 0px 0px 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+.main-populyar-menu-box2{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img2{
+    padding: 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn2{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+.main-populyar-menu-box3{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img3{
+    padding: 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box3{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn3{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+.main-populyar-menu-box4{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img4{
+    padding: 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box5{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn5{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+.main-populyar-menu-box5{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img5{
+    padding: 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box5{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn5{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+.main-populyar-menu-box6{
+    background-color: #D0CCC7;
+    max-width: 344px;
+    min-height: 637px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+}
+.menu-cart-img6{
+    padding: 30px;
+}
+.stars{
+    margin-top: 15px;
+}
+.main-menu-desc6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    width: 287px;
+    text-align: center;
+    margin: auto;
+}
+.main-populyar-menu-pricing-box6{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center
+}
+.menu-food-order-btn6{
+    background-color: #FF8A00;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 162px;
+}
+
+
